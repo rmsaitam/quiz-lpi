@@ -30,7 +30,7 @@
     },
     {
       "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Como root você já navegou para o diretório /B. Você deseja mover todos os arquivos e diretórios do diretório /A para o diretório /B. Qual das seguintes opções seria o comando mais adequado para executar esta tarefa?Qual a diferença de window e global?",
+      "title": "Como root você já navegou para o diretório /B. Você deseja mover todos os arquivos e diretórios do diretório /A para o diretório /B. Qual das seguintes opções seria o comando mais adequado para executar esta tarefa?",
       "answer": 3,
       "alternatives": [
         "cp -f /a/* ..",

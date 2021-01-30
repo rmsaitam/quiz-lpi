@@ -1,0 +1,95 @@
+{
+  "bg": "https://www.howtogeek.com/wp-content/uploads/2019/05/ximg_5cd08c895a7b3.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.wg8EQHpDtt.jpg",
+  "title": "Quiz LPI #AluraQuiz",
+  "description": "Um quiz rápido sobre o mundo do JavaScript",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
+      "title": "Você instalou um pacote rpm beta , mas está enfrentando alguns problemas com ele. Como você pode remover esse pacote ?",
+      "description": "Pergunta fácil em!",
+      "answer": 3,
+      "alternatives": [
+        "rpm -qe rpmname",
+        "rpm -V --remove rpmname",
+        "rpm -r rpmname",
+        "rpm -ev rpmname"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
+      "title": "A variável de ambiente _______ é uma lista de diretórios separada por dois-pontos onde bibliotecas devem ser procuradas primeiro, antes do conjunto padrão de diretórios.",
+      "description": "E agora? Você sabe?",
+      "answer": 2,
+      "alternatives": [
+        "LD_RUN_PATH",
+        "LD_SHARE_PATH",
+        "LD_LIBRARY_PATH",
+        "LD_LIB_PATH",
+        "LD_LOAD_PATH"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Como root você já navegou para o diretório /B. Você deseja mover todos os arquivos e diretórios do diretório /A para o diretório /B. Qual das seguintes opções seria o comando mais adequado para executar esta tarefa?Qual a diferença de window e global?",
+      "answer": 3,
+      "alternatives": [
+        "cp -f /a/* ..",
+        "cp -rf /A/* /b/",
+        "cp /a/* .",
+        "mv -f /A/* .",
+        "mv -Rf /a/* ."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual dos seguintes comandos é equivalente a matar 1234?",
+      "answer": 4,
+      "alternatives": [
+        "kill -1 1234 or kill -s SIGHUP 1234",
+        "kill -9 1234 or kill -s SIGKILL 1234",
+        "kill -2 1234 or kill -s SIGINT 1234",
+        "kill -3 1234 or kill -s SIGQUIT 1234",
+        "kill -15 1234 or kill -s SIGTERM 1234"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual dos seguintes comandos faria o mesmo que o comando cat < file1.txt > file2.txt ?",
+      "answer": 1,
+      "alternatives": [
+        "cat < file1.txt file2.txt",
+        "cat file1.txt >file2.txt",
+        "cat <file1.txt | file2.txt",
+        "cp file1.txt>file2.txt",
+        "cat file1.txt | file2.txt"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual ferramenta você pode usar para exibir as dependências de bibliotecas compartilhadas?",
+      "answer": 0,
+      "alternatives": [
+        "ldd",
+        "ldev",
+        "libdep",
+        "libpath",
+        "ldconfig"
+      ]
+    }
+  ],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#222222",
+      "secondary": "#e89c3f",
+      "mainBg": "#213f4e",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
